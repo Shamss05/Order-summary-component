@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Red Hat Display", sans-serif;
+    background-image: url('Assets/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsl(225, 100%, 94%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.main{
+    margin: auto;
+    background-color: hsl(225, 100%, 98%);
+    width: 450px;
+    border-radius: 10px;
+    text-align: center;
+}
+.sec1 img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+}
+#p1{
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    font-size: x-large;
+    margin: 30px 0 20px 0;
+}
+#p2{
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 10% 20px 10%;
+}
+.sec3{
+    display: flex;
+    background-color: hsla(225, 100%, 94%, 40%);
+    width: 70%;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+#p3{
+    color: hsl(223, 47%, 23%);
+    font-weight: 700;
+}
+#p4{
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+}
+.p{
+    margin-left: 20px;
+}
+a{
+    display: flex;
+    margin: 10px 30px 0px 90%;
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+}
+.sec3 img{
+    margin-left: 10px;
+}
+button{
+    width: 70%;
+    border: 0;
+    border-radius: 10px;
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 98%);
+    height: 50px;
+    box-shadow: 0px 20px 30px hsla(245, 75%, 52%, 30%);
+    margin: 30px 0 30px 0;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+}
+#p5{
+    font-weight: 700;
+    color: hsl(224, 23%, 55%);
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: hsl(260, 64%, 62%);
+}
+a:hover{
+    color: hsl(260, 64%, 62%);
+}
+#p5:hover{
+    color: hsl(223, 47%, 23%);
+}
+
+@media only screen and (max-width: 375px) {
+    body{
+        background-image: url('Assets/pattern-background-mobile.svg');
+    }
+    .main{
+        width: 330px;
+    }
+    .sec3, button{
+        width: 80%;
+    }
+    a{
+        margin: 10px 30px 0px 40%;
+    }
+}
+
+
